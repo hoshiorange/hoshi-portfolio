@@ -11,7 +11,7 @@ export default function Home() {
         height={200}
         className="rounded-full mb-4"
       />
-      <p className="text-xl mb-4">Hi, I'm @hoshiorange.</p>
+      <p className="text-xl mb-4">Hi, I am @hoshiorange.</p>
       <div className="flex space-x-4">
         <a
           href="https://github.com/hoshiorange"
