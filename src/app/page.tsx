@@ -11,8 +11,16 @@ export default function Home() {
         height={200}
         className="rounded-full mb-4"
       />
-      <p className="text-xl mb-4">Hi, I'm @hoshiorange.</p>
+      <p className="text-xl mb-4">Hi, I am @hoshiorange.</p>
       <div className="flex space-x-4">
+        <a
+          href="https://twitter.com/hoshiorange"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:text-blue-700"
+        >
+          X
+        </a>
         <a
           href="https://github.com/hoshiorange"
           target="_blank"
@@ -20,22 +28,6 @@ export default function Home() {
           className="text-blue-500 hover:text-blue-700"
         >
           GitHub
-        </a>
-        <a
-          href="https://linkedin.com/in/yourusername"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-500 hover:text-blue-700"
-        >
-          LinkedIn
-        </a>
-        <a
-          href="https://twitter.com/yourusername"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-500 hover:text-blue-700"
-        >
-          Twitter
         </a>
       </div>
     </div>
